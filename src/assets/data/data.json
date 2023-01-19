@@ -1,0 +1,30 @@
+{
+  "name": "Pandious The Cutest",
+  "age": "22",
+  "title": "Full Stack Developer Jr",
+  "location": "Chaco, Argentina",
+  "pfp": "https://i.postimg.cc/3N7P350D/Pandious.png",
+  "backgroungImage": "https://i.postimg.cc/mDhyzCnh/background.jpg",
+  "about": "I love Pandas and learning things. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. Lorem ipsum.",
+  "experience": {
+    "company": "#",
+    "companyImage": "#",
+    "url": "#",
+    "role": "#"
+  },
+  "education": {
+    "institution": "#",
+    "institutionImage": "#",
+    "certificate": "#"
+  },
+  "skills": {
+    "skills1": "#",
+    "skills2": "#",
+    "skills3": "#"
+  },
+  "projects": {
+    "project1": "#",
+    "project2": "#",
+    "project3": "#"
+  }
+}
