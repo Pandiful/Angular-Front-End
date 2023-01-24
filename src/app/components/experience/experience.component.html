@@ -1,6 +1,12 @@
 <div class="container-fluid bg-light">
-    <h5>Experience</h5>
-    <p>Lots of sleeping.</p>
-    <button>Edit <i class="bi bi-plus-circle"></i></button>
-    <button>Delete <i class="bi bi-x-circle"></i></button>
+  <h5>Experience</h5>
+  <ul>
+    <li *ngFor="let experience of experienceList">
+      <h4></h4>
+      <p></p>
+      <p><time></time><time></time></p>
+    </li>
+  </ul>
+  <button>Edit <i class="bi bi-plus-circle"></i></button>
+  <button>Delete <i class="bi bi-x-circle"></i></button>
 </div>

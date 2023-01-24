@@ -1,6 +1,12 @@
 <div class="container-fluid bg-light">
     <h5>Education</h5>
-    <p>School of English</p>
+    <ul class="education-list">
+      <li *ngFor="let education of educationList">
+        <h4>{{education.institution}}</h4>
+        <p>{{education.certificate}}</p>
+        <p><time>{{education.start}}</time> - <time>{{education.end}}</time></p>
+      </li>
+    </ul>
     <button>Edit <i class="bi bi-plus-circle"></i></button>
     <button>Delete <i class="bi bi-x-circle"></i></button>
 </div>

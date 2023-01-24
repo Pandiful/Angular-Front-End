@@ -3,28 +3,29 @@
   "age": "22",
   "title": "Full Stack Developer Jr",
   "location": "Chaco, Argentina",
-  "pfp": "https://i.postimg.cc/3N7P350D/Pandious.png",
-  "backgroungImage": "https://i.postimg.cc/mDhyzCnh/background.jpg",
-  "about": "I love Pandas and learning things. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. Lorem ipsum.",
-  "experience": {
-    "company": "#",
-    "companyImage": "#",
-    "url": "#",
-    "role": "#"
+  "about": "I love Pandas and learning things.",
+  "experience": [{
+    "company": "SnowRunner Modding",
+    "role": "Modder",
+    "start": "2023",
+    "end": "Active"
+  }],
+  "education": [{
+    "institution": "ECI School of English",
+    "certificate": "Council of Europe Level B1",
+    "start": "2008",
+    "end": "2017"
   },
-  "education": {
-    "institution": "#",
-    "institutionImage": "#",
-    "certificate": "#"
-  },
-  "skills": {
-    "skills1": "#",
-    "skills2": "#",
-    "skills3": "#"
-  },
-  "projects": {
-    "project1": "#",
-    "project2": "#",
-    "project3": "#"
-  }
+  {
+    "institution": "FinEs",
+    "certificate": "College Degree",
+    "start": "2013",
+    "end": "2022"
+  }],
+  "skills": [{
+    "skill": "English and Solving Problems"
+  }],
+  "projects": [{
+    "project": "Argentina Programa"
+  }]
 }

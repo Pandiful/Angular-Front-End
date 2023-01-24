@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-experience',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent {
+  experienceList:any;
+  constructor(public PortfolioService: PortfolioService) { }
 
+  ngOnInit(): void {
+    this.PortfolioService.obtainData().subscribe((data) => {
+      this.experienceList = data.experience;
+    });
+  }
 }
