@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PortfolioService {
 
-  constructor(public http:HttpClient) { }
+  constructor(private http:HttpClient) { }
   
   obtainData():Observable<any> {
     return this.http.get('./assets/data/data.json');

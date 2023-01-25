@@ -2,11 +2,13 @@
   <h5>Experience</h5>
   <ul>
     <li *ngFor="let experience of experienceList">
-      <h4></h4>
-      <p></p>
-      <p><time></time><time></time></p>
+      <h5>{{experience.company}}</h5>
+      <p>{{experience.role}}</p>
+      <p><time>{{experience.start}}</time> - <time>{{experience.end}}</time></p>
     </li>
   </ul>
-  <button>Edit <i class="bi bi-plus-circle"></i></button>
-  <button>Delete <i class="bi bi-x-circle"></i></button>
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-dark">Edit <i class="bi bi-plus-circle"></i></button>
+    <button type="button" class="btn btn-dark">Delete <i class="bi bi-x-circle"></i></button>
+  </div>
 </div>

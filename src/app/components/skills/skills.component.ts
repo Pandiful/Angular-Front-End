@@ -7,12 +7,12 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  portfolioData:any;
-  constructor(public PortfolioService: PortfolioService) { }
+  portfolioSkills:any;
+  constructor(private PortfolioService: PortfolioService) { }
 
   ngOnInit(): void {
     this.PortfolioService.obtainData().subscribe((data) => {
-      this.portfolioData = data;
+      this.portfolioSkills = data.skills;
     });
   }
 }

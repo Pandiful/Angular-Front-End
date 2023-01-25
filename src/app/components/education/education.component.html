@@ -2,11 +2,13 @@
     <h5>Education</h5>
     <ul class="education-list">
       <li *ngFor="let education of educationList">
-        <h4>{{education.institution}}</h4>
+        <h5>{{education.institution}}</h5>
         <p>{{education.certificate}}</p>
         <p><time>{{education.start}}</time> - <time>{{education.end}}</time></p>
       </li>
     </ul>
-    <button>Edit <i class="bi bi-plus-circle"></i></button>
-    <button>Delete <i class="bi bi-x-circle"></i></button>
+    <div class="btn-group btn-group-sm">
+      <button type="button" class="btn btn-dark">Edit <i class="bi bi-plus-circle"></i></button>
+      <button type="button" class="btn btn-dark">Delete <i class="bi bi-x-circle"></i></button>
+    </div>
 </div>

@@ -1,6 +1,14 @@
 <div class="container-fluid bg-light">
   <h5>Skills</h5>
-  <p>{{portfolioData.skills.skills1}}</p>
-  <button>Edit <i class="bi bi-plus-circle"></i></button>
-  <button>Delete <i class="bi bi-x-circle"></i></button>
+  <div>
+    <ul *ngFor="let skills of portfolioSkills">
+      <li>
+        <p>{{skills.skill}}</p>
+      </li>
+    </ul>
+  </div>
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-dark">Edit <i class="bi bi-plus-circle"></i></button>
+    <button type="button" class="btn btn-dark">Delete <i class="bi bi-x-circle"></i></button>
+  </div>
 </div>

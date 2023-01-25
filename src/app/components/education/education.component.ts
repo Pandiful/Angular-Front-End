@@ -8,7 +8,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class EducationComponent {
   educationList:any;
-  constructor(public PortfolioService: PortfolioService) { }
+  constructor(private PortfolioService: PortfolioService) { }
 
   ngOnInit(): void {
     this.PortfolioService.obtainData().subscribe((data) => {

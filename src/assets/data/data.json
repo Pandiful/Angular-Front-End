@@ -3,11 +3,11 @@
   "age": "22",
   "title": "Full Stack Developer Jr",
   "location": "Chaco, Argentina",
-  "about": "I love Pandas and learning things.",
+  "about": "Hello! My name is Pandious. I'm from Chaco, Argentina. Currently i am studying to be a Full Stack Developer Jr and hopefully one day be able to work in the industry.",
   "experience": [{
     "company": "SnowRunner Modding",
     "role": "Modder",
-    "start": "2023",
+    "start": "2022",
     "end": "Active"
   }],
   "education": [{
